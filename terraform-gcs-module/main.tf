@@ -5,6 +5,6 @@ resource "google_storage_bucket" "bucket" {
 
   labels = {
     env = "poc"
-    costcenter = "RK123"
+    costcenter = "rk123"
   }
 }
